@@ -1,0 +1,87 @@
+.loginContainer {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("https://cdn.pixabay.com/photo/2016/10/10/11/09/field-1728099_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.loginWrapper {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.loginTitle {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+.loginForm {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.loginForm > label {
+  margin: 10px 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.loginInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  width: 100%;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  cursor: pointer;
+  margin: 20px 0;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.loginOption {
+    text-align: center;
+    color: black;
+    background-color: coral;
+    width: 100px;
+    margin:0 auto;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.registerBtn {
+    width: 150px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: teal;
+    border: none;
+    outline: none;
+    display: block;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+

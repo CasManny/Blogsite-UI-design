@@ -1,0 +1,88 @@
+.registerContainer {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url("https://cdn.pixabay.com/photo/2016/02/19/11/33/drawing-pad-1209779_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.registerWrapper {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.registerTitle {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+.registerForm {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.registerInput:focus {
+  outline: none;
+}
+
+.registerButton {
+  cursor: pointer;
+  margin: 20px 0;
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  padding: 15px;
+  text-align: center;
+}
+
+.registerOption {
+    text-align: center;
+    color: black;
+    background-color: coral;
+    width: 100px;
+    margin:0 auto;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.loginBtn {
+    width: 150px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: teal;
+    border: none;
+    outline: none;
+    display: block;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+

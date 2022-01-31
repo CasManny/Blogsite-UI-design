@@ -1,0 +1,44 @@
+.contactContainer {
+    width: 600px;
+    margin: 20px auto 0;
+    max-width: 100%;
+    padding: 0 100px;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm label {
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.contactForm input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contactForm textarea {
+    resize: none;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.contactForm textarea::placeholder, .contactForm input{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.contactSubmitBtn {
+    padding: 15px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    outline: none;
+}
